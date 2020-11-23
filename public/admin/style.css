@@ -1,0 +1,88 @@
+.navbar-default{
+	padding: 10px 0px;
+}
+.logo{
+	max-width: 115px;
+    height: auto;
+    margin-top: -20px;
+}
+
+/*======= side bar  ======*/
+#side-menu li:nth-child(2n+0){
+	background-color: #eeeeee;
+}
+#side-menu .fa{
+	color: #ff9600;
+    font-size: 20px;
+}
+#side-menu .fa-edit, #side-menu .expense{
+	color: #a1358e;
+}
+#side-menu .fa-search{
+	font-size: 16px;
+	color: #5d5c61;
+}
+#side-menu .nav-second-level .report-money,
+#side-menu .nav-second-level .report-credit,
+#side-menu .nav-second-level .fa-bar-chart,
+#side-menu .nav-second-level .fa-arrow-circle-o-up{
+	color: #9f388e;
+}
+
+.nav>li>a:focus, .nav>li>a:hover{ 
+	background-color: #bbdcad;
+	color: #9C27B0;
+}
+
+.nav-second-level>li>a{
+	color: #5cb85c;
+}
+
+/*================*/
+.summary-box .fa{
+	font-size: 35px;
+}
+.summary-box .huge{
+	font-size: 20px;
+}
+.summary-box .fa-money{
+	color: #e1e2bc;
+}
+.summary-box .fa-university{
+	color: #312169;
+}
+.summary-box .suppliers{
+	color: #6d5c5c;
+}
+.summary-box .tag{
+	color: #312169;
+    font-weight: 600;
+}
+
+/*==========  add-brand- ==========*/
+.bg{
+	background-color: hsl(0, 0%, 93%);
+}
+.bg .panel-heading{
+	background-image: url(img/headerImage.PNG);
+	color: #ffffff;
+	text-align: center;
+}
+.bg .panel-heading h3{
+	margin: 0px;
+}
+
+/*======= For form design  =======*/
+label{
+	color: #0a004e;
+}
+sup{
+	color: #b90303;
+}
+.form-control{
+	border:1px solid #687705;
+	border-radius:0px;
+}
+.btn{
+	border-radius:0px;
+}

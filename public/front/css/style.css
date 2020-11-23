@@ -1,0 +1,849 @@
+body{
+    font-family: "Helvetica Neue",'source_sans_proregular',sans-serif,Helvetica,Arial,'siyam_rupaliregular','solaimanlipinormal';
+    font-size: 16px;
+    line-height: 1;
+    /*background-image:url(../img/background0.PNG);*/
+}
+
+
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+
+#preloader{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url(../img/loader/Preloader_3.gif) center no-repeat #fff;
+}
+
+/**
+All heading
+*/
+h1,h2,h3,h4,h5,h6{
+    line-height: 1; 
+}
+h1{
+    font-size: 48px;
+}
+h2{
+    font-size:30px ;
+}
+h3{
+    font-size: 24px;
+}
+h4{
+    font-size: 20px;
+}
+h5{
+    font-size: 18px;
+}
+
+/**
+Commons
+*/
+.first:first-child{
+    padding-left: 0;
+    margin-left: 0;
+}
+.last:last-child{
+    padding-right: 0;
+    margin-right: 0;
+}
+img{
+    /*max-width: 100%;*/
+    height: auto;
+}
+/*---- gap -----*/
+.gap-5,.gap-10,.gap-15,.gap-20,.gap-25,.gap-30,.gap-35,.gap-40,.gap-45,.gap-50,.gap-60{
+display: block;
+}
+.gap-5:after,.gap-10:after,.gap-15:after,.gap-20:after,.gap-25:after,.gap-30:after,.gap-35:after,.gap-40:after,.gap-45:after,.gap-50:after,.gap-60:after,
+.gap-5:before,.gap-10:before,.gap-15:before,.gap-20:before,.gap-25:before,.gap-30:before,.gap-35:before,.gap-40:before,.gap-45:before,.gap-50:before,.gap-60:before
+{
+clear:both;
+display:block;
+}
+
+.gap-5{
+    height:5px;
+}
+.gap-10{
+    height:10px;
+}
+.gap-15{
+    height:15px;
+}
+.gap-20{
+    height:20px;
+}
+.gap-25{
+    height:25px;
+}
+.gap-30{
+    height:30px;
+}
+.gap-35{
+    height:35px;
+}
+.gap-40{
+    height:40px;
+}
+.gap-45{
+    height:45px;
+}
+.gap-50{
+    height:50px;
+}
+.gap-60{
+    height: 60px;
+}
+/*---- margin bottom-----*/
+.mb-5{
+    margin-bottom:5px;
+}
+.mb-10{
+    margin-bottom:10px;
+}
+.mb-15{
+    margin-bottom:15px;
+}
+.mb-20{
+    margin-bottom:20px;
+}
+.mb-25{
+    margin-bottom:25px;
+}
+.mb-30{
+    margin-bottom:30px;
+}
+.mb-35{
+    margin-bottom:35px;
+}
+.mb-40{
+    margin-bottom:40px;
+}
+.mb-45{
+    margin-bottom:45px;
+}
+.mb-50{
+    margin-bottom:50px;
+}
+.mb-60{
+    margin-bottom:60px;
+}
+/**
+All Hovers
+*/
+a:hover,
+a:focus{
+    text-decoration: none;
+}
+header .main-menu ul li.current-menu-item a{
+    text-decoration: none;
+    color: #55b7cd;
+}
+
+/**
+All Transitions
+*/
+a, .hdr-popupbox span{
+    transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+
+fieldset{
+    display: block;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-top: 0.35em;
+    padding-bottom: 0.625em;
+    padding-left: 2.75em;
+    padding-right: 0.75em;
+    border: 2px solid rgba(230, 11, 11, 0.15);
+    border-radius: 10px;
+}
+
+legend{
+    display: block;
+    padding: 0 5px;
+}
+
+/* ================= Tob bar Style from here  ================*/
+
+.top-bar{
+    background-color: #353434;
+    border-top: 1px solid #dff0d8;
+}
+
+.users, .bangali-reg{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.users li, .bangali-reg li{
+    float: left;
+}
+.users li a>i,.bangali-reg li a>i{
+    color: #ffffff;
+}
+
+.users li a,.bangali-reg li a{
+    display: block;
+    margin: 0;
+    padding: 12px 10px;
+    color: #098ab3;
+}
+.users li:last-child a{
+    padding-left: 0px;
+}
+
+
+/*============== Online Registration  ===============*/
+
+.bangali-reg li{
+}
+.admission{
+  background-color: #f0ad4e;
+}
+
+/*=========== School addmission ===========*/
+.schoo-addmission-form{
+  background-image: url(../img/backgroundss.PNG);
+}
+ .schoo-addmission-form .form-control{
+  border: 1px solid #819d00;
+  border-radius: 0px;
+}
+.schoo-addmission-form label> sup{
+  color: #920f0f;
+  font-size: 16px;
+}
+
+
+/*===========================  header-area ========================*/
+#header-area{
+
+}
+.logo-area {
+  padding: 15px 0;
+    background-color: #045a84;
+    border-top: 1px solid #0f8fce;
+    border-bottom: 1px solid #0f8fce;
+}
+.logo-area a{
+  color: #ffffff;
+}
+
+.logo-area  .school-name{
+  vertical-align: middle;
+}
+.logo-area  .school-name h2{
+  font-size: 35px;
+  text-transform: uppercase;
+}
+.logo-area  .school-name h2+p{
+  padding-top: 10px;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 18px;
+}
+.logo-area .media-object{
+  width: 100px;
+  height: auto;
+}
+
+
+.slicknav_menu{
+    display: none;
+}
+
+/*======Main menu start here======*/ 
+#main_menu_area{
+    width: 100%;
+    background-color: #819D00;
+    padding: 10px 0;
+}
+
+#nav, ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+#nav li{
+    float: left;
+    position: relative;
+}
+
+#nav li a{
+    color: #ffffff;
+    padding: 12px 15px;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-left: 1px solid #94b10d;
+    border-right: 1px solid #6a7f08; 
+}
+#nav>li a:hover, #nav>li>.drop>li a:hover{
+    background-color: #819D00;
+}
+#nav li:hover >a{
+  background-color: #758c0b;
+}
+#nav>li>.drop>li:hover >a{
+    background-color: #819D00;
+}
+#nav li:first-of-type a{
+     border-left: none;
+}
+#nav li:last-of-type a{
+    border-right: none;
+}
+
+/* Drop down menu start here*/
+
+#nav li .drop{
+    display: none;
+    width: 250px;
+    position: absolute;
+    left: 0;
+    top: 40px;
+    z-index:9999;
+}
+#nav li .adm-item{
+  width: 159px !important;
+}
+
+#nav li .drop li{
+    float: none;
+    position: relative;
+}
+
+#nav li .drop li a{
+    border-left: none;
+    border-right: none;
+    background-color: #758c0b;
+    color: #e1e2de; 
+    border-bottom: 1px solid #06586d;
+}
+
+#nav li .drop li:last-of-type a{
+    border-bottom: none;
+}
+#nav .drop .down{
+    position: absolute;
+    left: 250px;
+    top: 0;
+    width: 230px;
+    display: none;
+}
+#nav .drop .down li> {
+  background-color: 
+}
+.active-menu{
+  background-color: #758c0b;
+}
+
+/*==============  slider and notic area  =============*/
+#slider-notic-area{
+  background-color: rgba(196, 196, 196, 0.52);
+  padding-top: 10px;
+}
+
+.marquee{
+  background-color: #d9edf7;
+  padding: 2px 5px;
+  border: 1px solid #f2dede;
+  box-shadow: -3px 0px 10px #888888;
+}
+.marquee h5.notic{
+  border-right: 1px solid #047bb5
+}
+
+.marquee div:last-child h5>a{
+  margin: 0 30px;
+  font-size: 16px;
+}
+.marquee div:last-child h5>a span{
+  color: #ecad3e;
+}
+
+/*===================  for slider area   ==================*/
+/* ===================================
+6. Sliders
+==================================== */
+/* --- flexslider --- */
+
+.flexslider {
+  padding:0;
+  margin: 10px 0 20px; 
+  background: #fff; 
+  position: relative; 
+  zoom: 1;
+  box-shadow:0px 0px 5px 2px rgba(0, 106, 157, 0.37);
+  max-height: 400px;
+}
+
+.flexslider .slides img {
+  max-height: 370px;
+}
+.flex-caption {
+  background:none; -ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endColorstr=#4C000000);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endColorstr=#4C000000); 
+  zoom: 1;
+ }
+.flex-caption {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: #fff;
+  margin: 0;
+  text-align: center;
+  padding: 5px 5px 0px 10px;
+  position: absolute;
+  width: 100%;
+
+}
+.flex-caption h3 {
+  color: #fff; 
+  letter-spacing: 1px;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+}
+
+.flex-caption p {
+  margin: 0 0 15px;
+}
+
+#student-of-the-year{
+  background-color: rgba(29, 139, 235, 0.31);
+}
+
+/*====== tallent student list =====*/
+.single-student{
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #819d00;
+}
+
+.single-student >p{
+  padding: 10px;
+  text-align: center;
+    line-height: 25px;
+  color: #09052f;
+}
+/*===================  for Notice list area   ==================
+
+7. Sliders ==================================== */
+/* --- Notice List --- */
+
+.institute-info,.teacher-employee,
+.president-speech, .headmaster-speech{
+  background-color: #006b9e;
+  height: 100%;
+  padding-bottom: 1px;
+}
+
+ .notice-list{
+     overflow-x: hidden;
+     max-height: 380px;
+     margin-bottom: 10px;
+ }
+.notice-list h3,.institute-info h4,
+ .teacher-employee h4, .about-school-college h4,
+ .president-speech h4, .headmaster-speech h4{
+  background-image: url(../img/headerImage.PNG);
+  margin-top: 10px;
+  font-size: 18px;
+  padding: 14px 10px 8px 10px;
+  color: #f2dede;
+  font-weight: 400;
+}
+.notice-list>ul>li{
+  transition: ease-in-out  0.3s;
+}
+.notice-list>ul>li>a:hover span,.notice-list>ul>li:hover a{
+  color: #ffbbbb;
+  font-weight: 700;
+}
+
+/*==================== About Istitute  ======================
+8. =================
+=============================================================*/
+/*#about-institute{
+  
+}
+*/
+
+.institute-info>ul>li, .teacher-employee>ul>li{
+  background-color: #5ba0dc;
+  padding: 12px 0;
+  transition: ease 0.5s;
+}
+.notice-list>ul>li:hover,.institute-info>ul>li:hover, .teacher-employee>ul>li:hover{
+  background-color: #047bb5;
+  cursor: pointer;
+}
+.institute-info>ul>li>a, .teacher-employee>ul>li>a{
+  padding: 10px;
+  color: #ffffff;
+}
+
+/*====================   about-school-college   ==============
+ 9. 
+======================                          ==============*/
+
+.about-school-college{
+  background-color: #006b9e;
+}
+.about-school-college>.well{
+  padding: 0px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px; 
+}
+
+.about-school-college .well blockquote>p{
+  color: #5a5959;
+  line-height: 25px;
+  font-size: 16px;
+}
+
+/*====================== President and HeadMaster Speech area  ====================
+10.
+===============================*/
+
+ .president-speech h4, .headmaster-speech h4{
+  padding: 12px 10px 6px;
+ }
+.president-speech>div>a>p, .headmaster-speech>div>a>p{
+  padding: 7px;
+  color: #d08a11;
+  text-align: center;
+  font-weight: 600;
+  
+}
+
+
+
+
+
+
+/*================= School Overview  =================
+14.------------
+*/
+
+.overview , .all-teacher {
+  margin: 20px 0;
+  box-shadow: 0px 0px 8px 2px #9ba8af;
+  font-family: 
+}
+
+.all-teacher{
+  padding:  0 5px;
+}
+
+.overview .overview-img{
+  max-width: 120px;
+}
+
+/*================== History =================*/
+.history p{
+  color: #3a3838;
+  font-size: 17px;
+  line-height: 25px;
+  text-align: justify;
+}
+
+/*===================  Teacher list area  =================
+16. -------------------
+*/
+
+
+/*======================================================
+  11---mixitup-nav
+  =======================================================
+*/
+
+.mixitup-nav>h2{
+  color: #ffa200;
+  padding: 25px 0;
+}
+.mixitup-nav>ul> li{
+  cursor: pointer;
+  background-color: #09052f;
+  color: #819D00;
+  padding: 15px 20px;
+  margin: 1px 0;
+  border-radius: 1px;
+  transition: ease-in-out .3s;
+}
+.mixitup-nav>ul> li:hover{
+  background-color: #819D00;
+  color: #09052f;
+}
+
+.active-teacher{
+  background-color: #819D00 !important;
+  color: #09052f !important;
+}
+
+.teacher-nav{
+  margin-bottom: 40px;
+}
+.single-teacher{
+  position: relative;
+  background: #fcfcfc;
+  border: 1px dashed #b5adad;
+  margin-bottom: 25px;
+  box-shadow: 0px 0px 8px 2px #9ba8af;
+  transition: ease-in-out 0.3s;
+}
+.single-teacher p span{
+  color: #819d00;
+  display: block;
+  padding-top: 10px;
+  font-weight: 700;
+  padding-bottom: 5px;
+}
+.single-teacher img{
+  max-height: 280px;
+  min-height: 280px;
+  cursor: pointer;
+}
+.single-teacher .content{
+  width: 100%;
+  background-color: rgba(0,0,0,.5);
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  display: none;
+}
+
+.single-teacher .content>a{
+  background-color: rgba(232, 172, 67, 0.62);
+  text-align: center;
+  display: block;
+  margin-top: 50%;
+  padding: 20px;
+  color: #ffffff;
+}
+
+.single-teacher .content>a:hover{
+  color: #819d00;
+  font-size: 17px;
+}
+.single-teacher:hover .content  {
+  display: block;
+  z-index: 99999;
+  cursor: pointer;
+}
+
+/*.single-teacher .caption{
+  width: 100%;
+  height: 100%;
+  margin-top: -107%;
+  z-index: 100;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.52);
+}*/
+
+
+
+/*================= result ==================*/
+.result{
+  margin-bottom: 8px;
+}
+
+/*=================  teacher-info-nav  =================
+13.*/
+h2.teacher-info-title{
+  text-align: center;
+  color: #333e02;
+}
+.teacher-info-nav{
+  margin:40px 0 10px 0;
+  padding: 0;
+  outline: 0;
+  margin-left: 8.5%;
+  list-style-type: none;
+}
+.teacher-info-nav li{
+  float: left;
+}
+.teacher-info-nav li a{
+  display: block;
+  padding: 20px 68px;
+  color: #ffffff;
+  background-color: #819d00;
+}
+.teacher-info-nav li a:hover{
+  background-color: #6e8601 !important;
+}
+a.active-info-nav{
+  background-color: #6e8601 !important;
+}
+
+/*  ==== Notice board list ====  */
+table.notice-table>tbody>tr>td:first-child + td {
+  color: #819d00;
+}
+
+
+/*--------------- contact us  -------------*/
+.contact-area .contact-info h4,
+.contact-area .contact-form h4{
+  margin-bottom: 10px;
+  color: #0070a7;
+  font-family: 'Raleway', sans-serif
+}
+ 
+ hr{
+  border-top: 1px solid #d6d3d3;
+}
+.contact-area .contact-form>p{
+  color: #819d00;
+  font-size: 16px;
+}
+.contact-area .contact-form textarea{
+  resize: vertical;
+}
+
+/*===================== class routine ==================*/
+.routing-heading{
+  padding: 15px 0 15px 10px;
+  background-color: #ededed;
+}
+.routine{
+  background-color: rgba(4, 123, 181, 0.72);
+}
+
+
+/*=============== student Information =============*/
+
+.students-info-heading{
+  background-color: #85d6fd;
+  padding: 20px;
+  color: #07286b;
+  margin-bottom: 5px;
+}
+.students-info-body{
+  background-color: #fefefe;
+}
+
+/*============ course-content  =========*/
+
+.course-content>p, .related>p{
+  color: #09052f;
+  font-family: sans-serif;
+  line-height: 25px;
+  font-size: 16px;
+  text-align: justify;
+}
+.related>p>a{
+  color: #819d00;
+  background-color: rgb(23, 46, 58);
+  padding: 8px;
+  display: block;
+  border-radius: 2px;
+}
+
+
+/*=== Footer area start form here 12.==*/
+#footer-area{
+  background-image: url(../img/textuer3.PNG);
+  border-top: 2px solid #fcf8e3;
+}
+.footer-top, .contact-area{
+  padding:35px 0;
+  color: #000000;
+}
+.footer-top .footer-top-single h4>span i.fa-map-marker{
+  padding: 0 4px;
+}
+.footer-top .footer-top-single:first-child, .contact-area .contact-info{
+  font-size: 18px;
+}
+.footer-top .footer-top-single:first-child p,
+.contact-area .contact-info:first-child p{
+  line-height: 25px;
+}
+
+.footer-top .footer-top-single:first-child p>span i.fa,
+.footer-top-single .usefull-education-link>li>a> i.fa,
+.contact-area .contact-info:first-child p>span i.fa {
+  color: rgb(240, 173, 78);
+}
+.footer-top-single .usefull-education-link{
+  list-style-type: none;
+  margin: 0;
+  padding: 0 0 20px 0;
+}
+.footer-top-single .usefull-education-link li a{
+  display: block;
+  padding: 6px 0px;
+  line-height: 22px;
+  font-size: 18px;
+}
+
+.footer-top .footer-top-single h4{
+  margin-bottom: 40px;
+  color: #0070a7;
+}
+.footer-top .footer-top-single h4>span{
+  background-color: #333333;
+  color: #819D00;
+  padding: 16px 18px;
+  border-radius: 50%;
+}
+
+
+.table>tbody>tr>td{
+  padding: 10px;
+  font-size: 16px;
+}
+
+/*====13.  copy-right area ============*/
+#footer-area>.footer-bottom{
+  background-color: #09052f;
+  color: #ffffff;
+  border-top: 2px solid #f0ad4e;
+}
+#footer-area>.footer-bottom h4{
+  color: #c3c3c3;
+  line-height: 30px;
+  font-size: 1em;
+}
+#footer-area>.footer-bottom h4 span{
+  color: #ffffff;
+}
+.copy-right ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.copy-right ul li{
+  float: left;
+  padding: 15px 10px;
+}
+.copy-right a{
+  color: #819D00;
+}
+.copy-right>p{
+  font-size: 1em;
+  padding-left: 10px;
+}
+
+#scrollUp{
+    position: absolute;
+    right: 5%;
+    bottom: 9%;
+    width: 45px;
+    height: 50px;
+    background-color: rgba(0,0,0,.5);
+    color: #819D00;
+    font-size: 40px;
+    padding: 5px 10px;
+    line-height: 40px;
+    border-radius: 2px
+}

@@ -1,0 +1,60 @@
+@media(max-width: 992px){
+	/*========= For Home Page  =======*/
+	.bangali-reg{
+		float: none !important;
+		padding: 2px 0;
+	}
+
+	#slider-notic-area{
+		background-image: none;
+		max-height: 100%;
+	}
+	#footer-area>.footer-bottom{
+		text-align: center;
+	}
+	#footer-area>.footer-bottom h4{
+	line-height: 20px;
+    font-size: 1em;
+	}
+	.copy-right{
+		float: none !important;
+	}
+	.copy-right>p{
+		font-size: 1em;
+	}
+} /*=============== end 992=============== ==*/
+@media(max-width: 767px){
+	.logo-area .school-name h2 {
+		font-size: 18px;
+	}
+	.logo-area .school-name h2+p{
+		font-size: 16px;
+	}
+	.marquee h5.notic{
+		font-size: 16px;
+	}
+	.slicknav_menu{
+    display: block;
+    background-color: #819D00;
+}
+.slicknav_btn{
+	background-color: #ffffff;
+	color: #819D00;
+}
+.slicknav_menu .slicknav_no-text{
+	background-color: #819D00;
+}
+.caret{
+	display: none;
+}
+#main_menu_area{
+	display: none;
+}
+.single-teacher .content>a {
+	margin-top: 25%;
+}
+
+}
+@media(max-width: 480px){
+
+}
